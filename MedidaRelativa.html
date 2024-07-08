@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medida en CSS - Ejemplo 3</title>
+    <style>
+        body {
+            font-size: 16px;
+            /* Tamaño de fuente base */
+        }
+
+        .parent {
+            font-size: 1.2em;
+            /* Tamaño de fuente relativo */
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        .child {
+            font-size: 1.5rem;
+            /* Tamaño de fuente relativo al tamaño de fuente del HTML */
+            padding: 10px;
+            background-color: lightblue;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">Texto de ejemplo</div>
+        <div class="child">Otro texto</div>
+    </div>
+</body>
+</html>
